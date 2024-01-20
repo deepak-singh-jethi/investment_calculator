@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 #root{
-    margin: 40px;
+    padding-top: 70px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
     gap: 40px;
+    background: rgb(20, 85, 123);
+    background: linear-gradient(0deg, rgba(20, 85, 123, 1) 0%, rgba(98, 171, 177, 1) 100%);
+    height: 100%;
+  
+}
+body{
+   
+    height: 100vh;
 }
 
 
@@ -52,9 +60,9 @@ label{
 }
 
 table{
-    border: 2px solid black;
     border-collapse: collapse;
-    width: 900px;
+    width: 950px;
+    background-color: white;
 }
 td,th{
     border: 2px solid gray;
