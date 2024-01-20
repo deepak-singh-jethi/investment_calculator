@@ -16,11 +16,11 @@ const Result = ({ values }) => {
     rows.push(
       <tr key={year}>
         <td>{year}</td>
-        <td>{formatter.format(startingPrincipal.toFixed(2))}</td>
-        <td>{formatter.format(startBalance.toFixed(2))}</td>
-        <td>{formatter.format(interest.toFixed(2))}</td>
-        <td>{formatter.format(endBalance.toFixed(2))}</td>
-        <td>{formatter.format(endPrincipal.toFixed(2))}</td>
+        <td>{startingPrincipal.toFixed(2)}</td>
+        <td>{startBalance.toFixed(2)}</td>
+        <td>{interest.toFixed(2)}</td>
+        <td>{endBalance.toFixed(2)}</td>
+        <td>{endPrincipal.toFixed(2)}</td>
       </tr>
     );
 
