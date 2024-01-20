@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <>
-      <h1>D-investment Calculator</h1>
+      <h1>D-Investment Calculator</h1>
       <InvestementInput
         values={inputs}
         onChange={setInputs}
