@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #root{
-    padding-top: 70px;
+    padding: 70px;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -12,12 +12,11 @@
     gap: 40px;
     background: rgb(20, 85, 123);
     background: linear-gradient(0deg, rgba(20, 85, 123, 1) 0%, rgba(98, 171, 177, 1) 100%);
-    height: 100%;
+    height: fit-content;
   
 }
 body{
-   
-    height: 100vh;
+    height: 100%;
 }
 
 
@@ -61,7 +60,7 @@ label{
 
 table{
     border-collapse: collapse;
-    width: 950px;
+    width: 900px;
     background-color: white;
 }
 td,th{
@@ -121,7 +120,7 @@ tbody >tr:nth-child(even) {
 
     table {
             width: fit-content;
-            min-width: 320px;
+            min-width: 310px;
         }
     
         td,
@@ -135,8 +134,9 @@ tbody >tr:nth-child(even) {
     
         form {
             width: fit-content;
-            min-width:320px;
+            min-width:310px;
             padding: 20px;
+            margin: 10px;
     
         }
     
@@ -155,11 +155,8 @@ tbody >tr:nth-child(even) {
         label {
             font-size: 13px;
         }
-        #root {
-         margin: 10px;
-        }
 
-       #root>h1{
+        #root>h1{
             width: 100vw;
             font-size: 20px;
             text-align: center;
