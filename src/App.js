@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import InvestementInput from "./components/InvestementInput";
+import Result from "./components/Result";
 
 const initialValues = {
   amount: 0,
   after: 0,
   rate: 0,
-  Additional: 0,
+  additional: 0,
 };
 
 const App = () => {
@@ -14,14 +15,20 @@ const App = () => {
   function handleSubmit(e) {
     e.preventDefault();
   }
+
   return (
-    <div>
+    <>
+      <h1>D-investment Calculator</h1>
       <InvestementInput
         values={inputs}
         onChange={setInputs}
         onSubmit={handleSubmit}
       />
-    </div>
+
+      <div id="result_conatiner">
+        <Result values={inputs} />
+      </div>
+    </>
   );
 };
 
