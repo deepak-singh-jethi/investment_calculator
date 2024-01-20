@@ -15,17 +15,17 @@
 
   
 }
-body,html{
+html,body{
         background: rgb(20, 85, 123);
         background: linear-gradient(0deg, rgba(20, 85, 123, 1) 0%, rgba(98, 171, 177, 1) 100%);
-        font-family: 'Roboto Slab', sans-serif;
-            line-height: 1.5;
-        
-            font-synthesis: none;
-            text-rendering: optimizeLegibility;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            -webkit-text-size-adjust: 100%;
+        background-repeat: no-repeat;
+            /* Prevent background from repeating */
+            background-size: cover;
+            /* Ensure the background covers the entire viewport */
+            font-family: 'Roboto Slab', sans-serif;
+            min-height: 100%;
+              
+    
     
 }
 
