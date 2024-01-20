@@ -11,9 +11,7 @@ const Result = ({ values }) => {
   for (let year = 1; year <= after; year++) {
     const interest = (startBalance * rate) / 100;
     const endPrincipal = Number(startingPrincipal) + Number(additional);
-    const endBalance = endPrincipal + interest;
-
-    console.log(typeof interest, typeof endPrincipal, typeof endPrincipal);
+    const endBalance = startBalance + interest;
 
     rows.push(
       <tr key={year}>
