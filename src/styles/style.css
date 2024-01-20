@@ -10,15 +10,15 @@
     justify-content:flex-start;
     align-items: center;
     gap: 40px;
-    background: rgb(20, 85, 123);
-    background: linear-gradient(0deg, rgba(20, 85, 123, 1) 0%, rgba(98, 171, 177, 1) 100%);
-    height: fit-content;
+   
+
   
 }
-body{
-    height: 100%;
+body,html{
+        background: rgb(20, 85, 123);
+        background: linear-gradient(0deg, rgba(20, 85, 123, 1) 0%, rgba(98, 171, 177, 1) 100%);
+    
 }
-
 
 
 form{

@@ -41,7 +41,6 @@ const InvestementInput = ({ onChange, values, onSubmit }) => {
               onChange({ ...values, rate: e.target.value });
             }}
             required
-            max="50"
           />
         </li>
         <li>
