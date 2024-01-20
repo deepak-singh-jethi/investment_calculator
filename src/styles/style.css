@@ -54,8 +54,7 @@ label{
 table{
     border: 2px solid black;
     border-collapse: collapse;
-    min-width: 900px;
-    width: fit-content;
+    width: 900px;
 }
 td,th{
     border: 2px solid gray;
@@ -77,3 +76,85 @@ tbody >tr:nth-child(even) {
 
 
 
+@media only screen and (min-width: 620px) and (max-width: 940px) {
+    table{
+        width: 600px ;
+    }
+
+   td,
+   th {
+
+       padding: 5px;
+       font-size: 16px;
+  
+
+   }
+   form {
+       width: 600px;
+       padding: 20px;
+   
+   }
+   form ul {
+       gap: 10px;
+
+
+   }
+   input {
+       padding: 8px;
+       font-size: 16px;
+    
+   }
+   label {
+       font-size: 18px;
+   }
+}
+
+@media only screen and (max-width: 621px) {
+
+    table {
+            width: fit-content;
+            min-width: 320px;
+        }
+    
+        td,
+        th {
+    
+            padding: 2px;
+            font-size: 12px;
+    
+    
+        }
+    
+        form {
+            width: fit-content;
+            min-width:320px;
+            padding: 20px;
+    
+        }
+    
+        form ul {
+            gap: 6px;
+    
+    
+        }
+    
+        input {
+            padding: 3px;
+            font-size: 14px;
+    
+        }
+    
+        label {
+            font-size: 13px;
+        }
+        #root {
+         margin: 10px;
+        }
+
+       #root>h1{
+            width: 100vw;
+            font-size: 20px;
+            text-align: center;
+         }
+
+}
