@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom"; // Correct import statement
+import ReactDOM from "react-dom/client";
 import App from "./App";
 import "../src/styles/style.css";
 
